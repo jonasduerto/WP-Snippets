@@ -1,0 +1,7 @@
+function wps_force_ssl( $force_ssl, $post_id = 0, $url = '' ) {
+    if ( $post_id == 25 ) {
+        return true
+    }
+    return $force_ssl;
+}
+add_filter('force_ssl' , 'wps_force_ssl', 10, 3);
