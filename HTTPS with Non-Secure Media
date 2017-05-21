@@ -1,0 +1,6 @@
+add_action('wp_head','nocdn_on_ssl_page');
+function nocdn_on_ssl_page() {
+    if($_SERVER['HTTPS'] == "on") {
+        define('DONOTCDN', true);
+    }
+}
