@@ -80,7 +80,7 @@ define('WP_POST_REVISIONS', false);
 // limit five post revisions
 define('WP_POST_REVISIONS', 5);
 ```
-5. Disable WordPress Automatic Updates
+# 5. Disable WordPress Automatic Updates
 
 WordPress’ developers wanted to make updates easier for the typical users. Automatic updates run in the backend for small-scale releases. But if you’d rather manually perform updates on your own time, this snippet provides a quick fix.
 
