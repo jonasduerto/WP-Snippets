@@ -1,4 +1,4 @@
-# 1. Colored Admin Table BGs by Post Status
+#1. Colored Admin Table BGs by Post Status
 
 The administration panel is designed in a very formulaic manner, but looking from a distance, everything tends to blur together. This snippet allows for custom-colored table row backgrounds for each post depending on the status (draft, pending, private, etc).
 
@@ -79,12 +79,13 @@ define('WP_POST_REVISIONS', false);
 
 // limit five post revisions
 define('WP_POST_REVISIONS', 5);
+```
 5. Disable WordPress Automatic Updates
 
 WordPress’ developers wanted to make updates easier for the typical users. Automatic updates run in the backend for small-scale releases. But if you’d rather manually perform updates on your own time, this snippet provides a quick fix.
 
 Please note this code should be added to your wp-config.php file in the root directory.
-
+```php
 define('WP_AUTO_UPDATE_CORE', false);
 ```
 ___
