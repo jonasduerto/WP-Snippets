@@ -1,4 +1,4 @@
-#1. Colored Admin Table BGs by Post Status
+# 1. Colored Admin Table BGs by Post Status
 
 The administration panel is designed in a very formulaic manner, but looking from a distance, everything tends to blur together. This snippet allows for custom-colored table row backgrounds for each post depending on the status (draft, pending, private, etc).
 
